@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="read.css">
+</head>
+
+<body>
+    <div class="nav_bar">
+        <h1 id="name">FetchUp</h1>
+        <div class="links">
+            <a href="found" href="/profile.html">Got Something</a>
+            <a class="Lost_item" href="/read.html" style="text-decoration: underline;">Let's find</a>
+            <a class="Logout" href="/logout">Logout</a>
+        </div>
+    </div>
+    <div class="search-container">
+        <input type="text" placeholder="Search..." class="search-input">
+    </div>
+    <div class="w-full h-full p-10  text-black">
+        <div class="users flex gap-3 flex-wrap">
+            <div class="post">
+                <div class="w-full h-72  rounded-lg overflow-hidden">
+                    <img class="w-full h-full object-cover img" src="icon.png" alt="">
+                </div>
+                <div class="content">
+                <h5 class="contact">Contact:</h5>
+                <h5 class="email">Email:</h5>
+                <h5 class="itemname">Item :</h5>
+                <h5 class="description">Description :</h5>
+                <h5 class="date">Date :</h5>
+                <h5 class="time">Time:</h5>
+                <h5 class="Location">Location :</h5>
+                <div class="buttons">
+                    <button>CLAIM</button>
+                    <!-- <a class="delete href="/delete/<%= user._id %>DELETE</a> -->
+                    <button>CHAT</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

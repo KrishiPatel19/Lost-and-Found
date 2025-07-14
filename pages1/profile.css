@@ -1,0 +1,70 @@
+body,html{
+    margin: 0;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.nav_bar{
+    background-color: #4169e1;
+    color: aliceblue;
+    margin: 0%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:end; */
+    justify-content: space-between;
+    align-items: end;
+}
+.links a{
+    font-weight: 500;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.nav_bar h1{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.field{
+    margin-bottom: 7px;
+    width: 500px;
+}
+h1{
+    font-weight: bolder;
+}
+.btn2{
+    width: 500px;
+    margin-top: 7px;
+    font-weight: 500;
+}
+#img{
+    width: 500px;
+}
+/* .info{
+    background-image: url(https://thumbs.dreamstime.com/b/young-african-american-guy-opening-backpack-looking-inside-searching-something-his-bag-sitting-grass-city-park-outdoors-249047071.jpg);
+    background-size: cover;
+    opacity: 0.3;
+} */
+.info {
+  height:100vh; 
+  position: relative;
+  z-index: 1;
+}
+
+.info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://thumbs.dreamstime.com/b/young-african-american-guy-opening-backpack-looking-inside-searching-something-his-bag-sitting-grass-city-park-outdoors-249047071.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; 
+  z-index: -1; 
+}
+.info h1{
+    margin-bottom: 25px;
+}
